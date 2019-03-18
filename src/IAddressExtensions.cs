@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Web;
 
 namespace restlessmedia.Module.Address
 {
@@ -9,7 +10,7 @@ namespace restlessmedia.Module.Address
     /// <summary>
     /// Returns the address firstline i.e. 146 Somewhere Street
     /// </summary>
-    public static string FirstLine(this IAddress address)
+    public static string FirstLine(this IAddress address) 
     {
       const string space = " ";
       return string.Concat(address.NameNumber, space, address.Address01).Trim();
