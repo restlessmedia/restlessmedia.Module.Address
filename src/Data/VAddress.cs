@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace restlessmedia.Module.Address.Data
 {
   [Table("VAddress")]
-  internal class VAddress : LicensedEntity, IAddress
+  public class VAddress : LicensedEntity, IAddress
   {
     public VAddress(IAddress address)
     {
