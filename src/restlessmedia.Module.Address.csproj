@@ -96,6 +96,7 @@
     <Compile Include="IAddressExtensions.cs" />
     <Compile Include="Marker.cs" />
     <Compile Include="Module.cs" />
+    <Compile Include="Nearest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
