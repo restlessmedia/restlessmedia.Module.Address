@@ -10,7 +10,7 @@
     <FileVersion>2.0.0</FileVersion>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <Authors>Phil Cooper</Authors>
-    <PackageId>$title$</PackageId>
+    <PackageId>restlessmedia.Module.Address</PackageId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>
