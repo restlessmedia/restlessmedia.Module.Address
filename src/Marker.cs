@@ -18,7 +18,7 @@ namespace restlessmedia.Module
       Title = title;
     }
 
-    public string Title;
+    public string Title { get; set; }
 
     public double? Latitude { get; set; }
 
